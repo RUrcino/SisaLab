@@ -1,8 +1,8 @@
-const a = confirm("Quieres cambiar el titulo?")
-if(a==true){
-     let b = prompt("Cual sera el nuevo titulo?")
+
+
+let b = prompt("Cual es tu nombre?")
      
-     document.getElementById("titulo").innerHTML = b;
-}
+document.getElementById("nombre").innerHTML = b;
+
 
 

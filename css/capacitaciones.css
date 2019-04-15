@@ -1,0 +1,48 @@
+html, body, header, footer{
+     margin: 0px;
+     padding: 0px;
+}
+.seccion{
+     width: auto;
+     height: 562px;
+     
+     border: 2px solid black;
+     border-radius: 8px;
+     
+ }
+ .container-flex-marca{
+      display: flex;
+      margin: 0 auto;
+      flex-direction:row;
+      flex-wrap:wrap;
+      justify-content:flex-start;
+ }
+ strong{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ #nombre{
+      font-family: cursive;
+ }
+ .marcas{
+margin: 0.9em;
+     display: block;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    
+}
+ .flex-hijo-marca{
+
+      flex-wrap: wrap;
+      
+      padding: 2em;
+      margin: 0 auto;
+      
+ }
+
+.marcas:hover{
+     
+     height: 100%;
+     
+     
+}

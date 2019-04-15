@@ -1,13 +1,15 @@
 html,body{
      margin: 0px;
      padding: 0px;
+     background-color: #F26E22;
      
 }
+
 
 .flex-container-nav{
      justify-content: flex-end;
      display: flex;
-     
+     border-radius: 20px;
      background-color: #117DBF;
      
   
@@ -18,12 +20,14 @@ html,body{
      font-size: 1.2em;
 }
 
-img{
+.logo-sisa{
      padding: 0.8em;
-     transition: width 2s;
+     transition-property: width;
+     transition-duration: 2s;
+     
      
 }
-img:hover{
+.logo-sisa:hover{
      width: 20%;
      height: 10%;
 }
@@ -52,11 +56,19 @@ h1,h2,h3{
      font-family: Arial, Helvetica, sans-serif;
 }
 .seccion{
-     width: 950px;
-     height: 562px;
+     width: 980px;
+     height: 560px;
      margin: 0 auto;
-     border: 2px solid #857321;
-     border-radius: 15px;
+     border: 2px black solid;
+     background-image: url(/assets/fondo.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     -webkit-box-shadow: 72px 6px 11px -8px rgba(0,0,0,0.75);
+     -moz-box-shadow: 72px 6px 11px -8px rgba(0,0,0,0.75);
+     box-shadow: 72px 6px 11px -8px rgba(0,0,0,0.75);
+ 
+
+     
      justify-content: center;
      
 }
@@ -110,6 +122,8 @@ footer{
 
 
 /* Color Theme Swatches in Hex */
+
+
 
 
 
